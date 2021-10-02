@@ -8,7 +8,7 @@ let numTwo = Math.ceil(1.005 * 100)/100;
 
 console.log(numTwo)
 
-let numThree = Math.round((1.005 + + Number.EPSILON) * 100)/100;
+let numThree = Math.round((1.005 + Number.EPSILON) * 100)/100;
 
 console.log(numThree)
 
