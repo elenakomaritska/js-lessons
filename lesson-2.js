@@ -12,6 +12,8 @@ let numThree = Math.round((1.005 + + Number.EPSILON) * 100)/100;
 
 console.log(numThree)
 
+//2
+
 let value = '135.58px'
 
 console.log(parseFloat(value))
