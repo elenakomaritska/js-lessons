@@ -35,7 +35,7 @@ console.log(Math.max(10,58,39,-150,0))
 let num = 58.858;
 console.log(Math.floor(num));
 
-//6 олучить Привет я фрилансер
+//6 получить Привет я фрилансер
 
 let fls = 'фрилансер'
 let text = `Привет! я ${fls}`
