@@ -1,14 +1,14 @@
 // 1 Получить верное значение
 
-let numOne = Math.round(1.005 * 100)/100;
+let numOne = Math.round(1.005 * 100) / 100;
 
 console.log(numOne)
 
-let numTwo = Math.ceil(1.005 * 100)/100;
+let numTwo = Math.ceil(1.005 * 100) / 100;
 
 console.log(numTwo)
 
-let numThree = Math.round((1.005 + Number.EPSILON) * 100)/100;
+let numThree = Math.round((1.005 + Number.EPSILON) * 100) / 100;
 
 console.log(numThree)
 
@@ -28,7 +28,7 @@ if (isNaN(value2)) {
 
 //4 найти максимальное число 10 58 39 -150 0
 
-console.log(Math.max(10,58,39,-150,0))
+console.log(Math.max(10, 58, 39, -150, 0))
 
 //5 округлить число 58.858 до 58
 
